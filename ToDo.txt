@@ -1,3 +1,0 @@
-First Question Bug
-Work on displaying correct answer
-Work on Rules Page
