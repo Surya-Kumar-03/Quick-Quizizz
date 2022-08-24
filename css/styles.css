@@ -1,0 +1,339 @@
+:root {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+/* Font-size of Navbar */
+#brand {
+  font-size: 2.75rem;
+}
+
+/* Changing Navbar Title Font */
+.navbar {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Shadow Beneath Navbar */
+.nav-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1.25);
+}
+
+/* Change Color of Navbar */
+.bg {
+  background-color: #3395ff;
+}
+
+/* Setting Font-style for Caption */
+.caption {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  color: #333;
+}
+
+/* Wrapper of Content */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+  flex-flow: column;
+}
+
+.wrapper2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80vh;
+  width: 100vw;
+  flex-flow: column;
+}
+
+/* Seperates Input TextBox and Submit */
+.name-form input,
+.name-form button {
+  display: block;
+  width: 100%;
+}
+
+/* What is your name styling */
+#blue {
+  margin-top: 7rem;
+  color: white;
+}
+
+/* Background Color for Container */
+.bg1 {
+  background-color: lightskyblue;
+}
+
+/* Setting Input Characteristics */
+.name-form input {
+  margin-bottom: 0.5rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px white;
+  color: white;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* Button Customization */
+.name-form button {
+  font-size: xx-large;
+  padding: 5px;
+  background-color: white;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  transition: 0.4s all;
+}
+
+/* Hover Effect */
+.name-form button:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+/* Removing Waste of Outline */
+.name-form input:focus,
+.name-form button:focus {
+  outline: none;
+}
+
+/* Background for video */
+.bg2 {
+  background-color: white;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flex2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.quiz {
+  margin-top: 4vh;
+  width: 80vw;
+  height: 80vh;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.quizheader {
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  color: lightblue;
+  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quizbody {
+  background-color: lightskyblue;
+  width: 100%;
+  height: 70vh;
+  padding: 1rem;
+}
+
+.footer2 {
+  margin-top: 4.5rem;
+}
+
+.quiz-user {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  color: lightskyblue;
+}
+
+.quiz-timer {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+  font-weight: bolder;
+  font-size: xx-large;
+  padding-left: 1rem;
+  color: lightskyblue;
+  background-color: white;
+  border: 2px solid #b8daff;
+  border-radius: 5px;
+  margin: 3px;
+}
+
+.question {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  color: white;
+}
+
+.choice-container {
+  font-family: "Montserrat", sans-serif;
+  background-color: aliceblue;
+  border: 1px solid #84c5fe;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.choice-prefix {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  background-color: #2668e0;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.choice-text {
+  padding-left: 1rem;
+  width: 100%;
+  user-select: none;
+}
+
+.choice-container:hover {
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}
+
+.last {
+  margin-bottom: 0.4rem;
+  width: 100%;
+}
+
+.btn-next {
+  background-color: #3395ff;
+  color: white;
+  padding: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  border: none;
+  border-radius: 3px;
+  float: right;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: 0.4s all;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-next:focus {
+  outline: none;
+}
+
+.btn-next:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.4);
+}
+
+.correct {
+  background-color: #28a745 !important;
+}
+
+.incorrect {
+  background-color: #dc3545 !important;
+}
+
+#hud {
+  display: flex;
+  justify-content: left;
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  color: white;
+}
+
+.hud-main-text {
+  font-family: "Montserrat", sans-serif;
+  background-color: #2668e0;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 1rem;
+  color: white;
+}
+
+.end-btn {
+  background-color: #2668e0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+  border-radius: 5px;
+  float: right;
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: 0.4s all;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.end-btn:hover {
+  background-color: lightblue;
+  text-decoration: none;
+}
+
+.compliment {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+
+#finalScore {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#exit {
+  text-decoration: none;
+}
+
+.name {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 3rem;
+  padding-top: 5rem;
+  font-weight: bolder;
+}
+
+::placeholder {
+  font-size: medium;
+  color: white;
+  text-align: right;
+}
