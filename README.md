@@ -1,5 +1,5 @@
 # Quick-Quizizz
-## _A Online Web-Based Quiz App with Timer_
+## _An Online Web-Based Quiz App with Timer_
 
 ## Features
 - Countdown Timer is implemented for each question.
