@@ -214,7 +214,7 @@ body {
 }
 
 .choice-text {
-  padding-left: 1rem;
+  padding: 1rem;
   width: 100%;
   user-select: none;
 }
