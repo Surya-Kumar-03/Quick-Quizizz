@@ -9,7 +9,7 @@
 
 - HTML
 - CSS
-- Javascript
+- Vanilla JS
 - Bootstrap
 
 # Snapshots of the App
