@@ -13,7 +13,7 @@ let questions = [];
 
 //Using Fetch API from OpenTrivia DB https://opentdb.com/api_config.php
 fetch(
-  "https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple"
+  "https://opentdb.com/api.php?amount=10&category=28&difficulty=easy&type=multiple"
 )
   .then((res) => {
     return res.json();
