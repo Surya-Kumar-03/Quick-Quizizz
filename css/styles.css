@@ -189,6 +189,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: x-large;
   color: white;
+  user-select: none;
 }
 
 .choice-container {

@@ -52,7 +52,29 @@ function startGame() {
   score = 0;
   availableQuestions = [...questions];
   localStorage.setItem("mostRecentScore", score);
+  focus();
   getNewQuestion();
+}
+
+function focus() {
+  var count = 3;
+  window.addEventListener("blur", function () {
+    count--;
+    if (count === 0) {
+      localStorage.setItem("mostRecentScore", score);
+      return window.location.replace("end.html");
+    }
+    alert(
+      "Tab Switch is Prohibited!, You have " +
+        (count - 1) +
+        " accidental-switch(es) left!"
+    );
+  });
+}
+
+function endQuiz() {
+  localStorage.setItem("mostRecentScore", score);
+  return window.location.replace("end.html");
 }
 
 // Displays Question from Array
