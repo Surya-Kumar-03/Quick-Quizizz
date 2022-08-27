@@ -6,6 +6,8 @@
 - Score is also calculated for every correct answer.
 - Disables Quiz if Tab-Switches exceed count of 2.
 - Question cannot be selected.
+- Displays whether the Answer is correct or wrong in Real-Time.
+- Displays the Correct Answer if the User marks the wrong answer.
 
 ## Tech
 
