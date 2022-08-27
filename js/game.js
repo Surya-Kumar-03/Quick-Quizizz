@@ -11,7 +11,7 @@ let availableQuestions = [];
 
 let questions = [];
 
-//Using Fetch API from OpenTrivia DB  ask aa https://opentdb.com/api_config.php
+//Using Fetch API from OpenTrivia DB https://opentdb.com/api_config.php
 fetch(
   "https://opentdb.com/api.php?amount=10&category=18&difficulty=easy&type=multiple"
 )
@@ -47,6 +47,7 @@ fetch(
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 
+//Start game
 function startGame() {
   questionCounter = 0;
   score = 0;
@@ -56,6 +57,7 @@ function startGame() {
   getNewQuestion();
 }
 
+//Tab-Switch Preventer
 function focus() {
   var count = 3;
   window.addEventListener("blur", function () {
@@ -72,6 +74,7 @@ function focus() {
   });
 }
 
+//endQuiz
 function endQuiz() {
   localStorage.setItem("mostRecentScore", score);
   return window.location.replace("end.html");
@@ -136,6 +139,7 @@ choices.forEach((choice) => {
   });
 });
 
+//Score Incrementor
 incrementScore = (num) => {
   score += num;
   scoreText.innerText = score;
