@@ -23,6 +23,9 @@
 ## Quiz Page
 ![image](https://user-images.githubusercontent.com/89148170/186490116-076b1e55-fa3b-4d6f-b66c-dc97cb67044a.png)
 
+## Answer Verification in Real-Time
+![image](https://user-images.githubusercontent.com/89148170/187021208-89bd83b0-c72f-4613-b083-f6200b946d55.png)
+
 ## Tab-Switch Warning
 ![image](https://user-images.githubusercontent.com/89148170/187016206-f1aa8417-a466-43c1-bd17-40176a54cd73.png)
 
