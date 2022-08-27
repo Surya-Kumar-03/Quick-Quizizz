@@ -4,6 +4,8 @@
 ## Features
 - Countdown Timer is implemented for each question.
 - Score is also calculated for every correct answer.
+- Disables Quiz if Tab-Switches exceed count of 2.
+- Question cannot be selected.
 
 ## Tech
 
