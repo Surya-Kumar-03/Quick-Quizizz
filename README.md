@@ -5,9 +5,10 @@
 - Countdown Timer is implemented for each question.
 - Score is also calculated for every correct answer.
 - Disables Quiz if Tab-Switches exceed count of 2.
-- Question cannot be selected.
-- Displays whether the Answer is correct or wrong in Real-Time.
-- Displays the Correct Answer if the User marks the wrong answer.
+- Checks Whether the Answer is Correct or Wrong in Real-Time.
+- Displays the Correct Answer if the User selects the Wrong Answer.
+- Responsive.
+- User cannot Copy-Paste Questions (Prevents against Malpractice).
 
 ## Tech
 
