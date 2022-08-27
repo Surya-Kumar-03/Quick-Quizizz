@@ -338,3 +338,7 @@ body {
   color: white;
   text-align: right;
 }
+
+.hidden{
+  visibility: hidden;
+}

@@ -129,6 +129,36 @@ choices.forEach((choice) => {
     //add class to parent element to display correct or wrong
     selectedChoice.parentElement.classList.add(classToApply);
 
+    //Shows Correct answer if answer is wrong by user
+    if (classToApply === "incorrect") {
+      switch (currentQuestion.answer) {
+        case 1:
+          document.getElementById("option1").classList.remove("hidden");
+          setTimeout(() => {
+            document.getElementById("option1").classList.add("hidden");
+          }, 1000);
+          break;
+        case 2:
+          document.getElementById("option2").classList.remove("hidden");
+          setTimeout(() => {
+            document.getElementById("option2").classList.add("hidden");
+          }, 1000);
+          break;
+        case 3:
+          document.getElementById("option3").classList.remove("hidden");
+          setTimeout(() => {
+            document.getElementById("option3").classList.add("hidden");
+          }, 1000);
+          break;
+        case 4:
+          document.getElementById("option4").classList.remove("hidden");
+          setTimeout(() => {
+            document.getElementById("option4").classList.add("hidden");
+          }, 1000);
+          break;
+      }
+    }
+
     //remove class before changing to next question
     setTimeout(() => {
       selectedChoice.parentElement.classList.remove(classToApply);
