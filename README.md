@@ -19,7 +19,7 @@
 
 # Snapshots of the App
 ## Home Page
-![image](https://user-images.githubusercontent.com/89148170/186490841-60376531-e9f8-48e9-a895-18ad53467c2d.png)
+![image](https://user-images.githubusercontent.com/89148170/187484563-4fee8e9f-1e33-443f-b630-87c1a573dc18.png)
 
 ## Quiz Page
 ![image](https://user-images.githubusercontent.com/89148170/186490116-076b1e55-fa3b-4d6f-b66c-dc97cb67044a.png)
