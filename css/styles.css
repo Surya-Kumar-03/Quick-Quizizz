@@ -66,7 +66,7 @@ body {
 
 /* What is your name styling */
 #blue {
-  margin-top: 7rem;
+  margin-top: 3rem;
   color: white;
 }
 
@@ -302,7 +302,8 @@ body {
 }
 
 .end-btn:hover {
-  background-color: lightblue;
+  background-color:#3395ff;
+  color: white;
   text-decoration: none;
 }
 
@@ -322,6 +323,11 @@ body {
 
 #exit {
   text-decoration: none;
+  color: white;
+}
+
+#exit:hover{
+  color: white;
 }
 
 .name {
@@ -341,4 +347,31 @@ body {
 
 .hidden{
   visibility: hidden;
+}
+
+.page{
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  color: white;
+  background-color:#3395ff;
+  width: fit-content;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+#create{
+  margin-top:12rem;
+  color: white;
+  font-size: x-large;
+}
+
+#create:hover{
+  background-color:#2668e0;
+  text-decoration: none;
+}
+
+.pad{
+  margin-right: 0.75rem;
 }
