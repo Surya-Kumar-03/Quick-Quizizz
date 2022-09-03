@@ -375,3 +375,48 @@ body {
 .pad{
   margin-right: 0.75rem;
 }
+
+.examiner-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  width: 100vw;
+  height: 89vh;
+  flex-flow: column;
+  padding-left: 1rem;
+}
+
+#left{
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size:x-large;
+}
+
+#usr{
+  margin-left: 1rem;
+  width: 90vw;
+}
+
+#usr::placeholder{
+  text-align: left;
+}
+
+#option-add{
+  margin-top: 1rem;
+  width: 60vw;
+  margin-left: 1rem;
+}
+
+#option-add::placeholder{
+  text-align: center;
+}
+
+.btn-pad{
+  margin-left: 1rem;
+  margin-top: 2.5rem;
+}
+
+.qno{
+  padding: 0.25rem;
+  margin-left: 4.5rem;
+}
