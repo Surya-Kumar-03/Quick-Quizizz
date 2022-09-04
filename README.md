@@ -16,6 +16,9 @@
 - CSS
 - Vanilla JS
 - Bootstrap
+- Node JS
+- Express JS
+- API
 
 # Snapshots of the App
 ## Home Page
