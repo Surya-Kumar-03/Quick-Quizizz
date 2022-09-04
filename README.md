@@ -2,7 +2,7 @@
 ## _An Online Web-Based Quiz App with Timer_
 
 ## Features
-- Countdown Timer is implemented for each question.
+- Countdown Timer is implemented for every question.
 - Score is calculated for every correct answer.
 - Disables Quiz if Tab-Switches exceed count of 2.
 - Checks Whether the Answer is Correct or Wrong in Real-Time.
