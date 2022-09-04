@@ -391,6 +391,8 @@ body {
 #left{
   padding-top: 1rem;
   padding-left: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0.3rem;
   font-size:x-large;
 }
 
@@ -401,6 +403,16 @@ body {
 
 #usr::placeholder{
   text-align: left;
+}
+
+#option-add2{
+  margin-top: 1rem;
+  width: 30vw;
+  margin-left: 1rem;
+}
+
+#option-add2::placeholder{
+  text-align: center;
 }
 
 #option-add{
