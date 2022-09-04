@@ -4,7 +4,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 var favicon = require("serve-favicon");
 var path = require("path");
-var port = 4000;
 
 const app = express();
 app.use(express.static(path.join(__dirname, "public")));
@@ -30,6 +29,6 @@ app.get("/examiner.html", function (req, res) {
   res.sendFile(__dirname + "/examiner.html");
 });
 
-app.listen(port, function () {
+app.listen(process.env.PORT || 4000, function () {
   console.log("Server started on port 4000.");
 });
