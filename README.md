@@ -1,7 +1,9 @@
 # Quick-Quizizz
+
 ## _An Online Web-Based Quiz App with Timer_
 
 ## Features
+
 - Countdown Timer is implemented for every question.
 - Score is calculated for every correct answer.
 - Disables Quiz if Tab-Switches exceed count of 2.
@@ -21,4 +23,5 @@
 - API
 
 # Snapshots of the App
+
 ## Will be Updated Soon
