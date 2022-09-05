@@ -21,6 +21,7 @@
 - Node JS
 - Express JS
 - API
+- MongoDB
 
 # Snapshots of the App
 
