@@ -7,42 +7,133 @@ let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
-let availableQuestions = [];
+let availableQuestions = [
+  {
+    question: "Hi1",
+    choice1: "<title> </body>",
+    choice2: "<head> </head>",
+    choice3: "<table> </table>",
+    choice4: "<body> </body>",
+    answer: 4,
+  },
+  {
+    question: "Hi2",
+    choice1: "Google",
+    choice2: "Mozilla",
+    choice3: "WWWC",
+    choice4: "Microsoft",
+    answer: 3,
+  },
+  {
+    question: "Hi3",
+    choice1: "<title> </body>",
+    choice2: "<head> </head>",
+    choice3: "<table> </table>",
+    choice4: "<body> </body>",
+    answer: 4,
+  },
+  {
+    question: "Hi4",
+    choice1: "Google",
+    choice2: "Mozilla",
+    choice3: "WWWC",
+    choice4: "Microsoft",
+    answer: 3,
+  },
+  {
+    question: "Hi5",
+    choice1: "<title> </body>",
+    choice2: "<head> </head>",
+    choice3: "<table> </table>",
+    choice4: "<body> </body>",
+    answer: 4,
+  },
+  {
+    question: "Hi6",
+    choice1: "Google",
+    choice2: "Mozilla",
+    choice3: "WWWC",
+    choice4: "Microsoft",
+    answer: 3,
+  },
+  {
+    question: "Hi7",
+    choice1: "<title> </body>",
+    choice2: "<head> </head>",
+    choice3: "<table> </table>",
+    choice4: "<body> </body>",
+    answer: 4,
+  },
+  {
+    question: "Hi8",
+    choice1: "Google",
+    choice2: "Mozilla",
+    choice3: "WWWC",
+    choice4: "Microsoft",
+    answer: 3,
+  },
+  {
+    question: "Hi9",
+    choice1: "<title> </body>",
+    choice2: "<head> </head>",
+    choice3: "<table> </table>",
+    choice4: "<body> </body>",
+    answer: 4,
+  },
+  {
+    question: "Hi10",
+    choice1: "Google",
+    choice2: "Mozilla",
+    choice3: "WWWC",
+    choice4: "Microsoft",
+    answer: 3,
+  },
+];
 
 let questions = [];
 
-//Using Fetch API from OpenTrivia DB https://opentdb.com/api_config.php
-fetch(
-  "https://opentdb.com/api.php?amount=10&category=28&difficulty=easy&type=multiple"
-)
-  .then((res) => {
-    return res.json();
-  })
-  .then((loadedQuestions) => {
-    questions = loadedQuestions.results.map((loadedQuestion) => {
-      const formattedQuestion = {
-        question: loadedQuestion.question,
-      };
+//Fetching Questions from Database MONGO DB
+const loadData = async () => {
+  const res = await fetch("/api/questions");
+  const data = await res.json();
+  availableQuestions = data;
+  startGame();
+};
 
-      const answerChoices = [...loadedQuestion.incorrect_answers];
-      formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
-      answerChoices.splice(
-        formattedQuestion.answer - 1,
-        0,
-        loadedQuestion.correct_answer
-      );
+loadData();
 
-      answerChoices.forEach((choice, index) => {
-        formattedQuestion["choice" + (index + 1)] = choice;
-      });
+// Using Fetch API from OpenTrivia DB https://opentdb.com/api_config.php
+// fetch(
+//  https://opentdb.com/api.php?amount=10&category=19&difficulty=easy&type=multiple
+// )
+// .then((res) => {
+//   return res.json();
+// })
+// .then((loadedQuestions) => {
+//   questions = loadedQuestions.results.map((loadedQuestion) => {
+//     const formattedQuestion = {
+//       question: loadedQuestion.question,
+//     };
 
-      return formattedQuestion;
-    });
-    startGame();
-  })
-  .catch((err) => {
-    console.log(err);
-  });
+//     const answerChoices = [...loadedQuestion.incorrect_answers];
+//     formattedQuestion.answer = Math.floor(Math.random() * 4) + 1;
+//     answerChoices.splice(
+//       formattedQuestion.answer - 1,
+//       0,
+//       loadedQuestion.correct_answer
+//     );
+
+//     answerChoices.forEach((choice, index) => {
+//       formattedQuestion["choice" + (index + 1)] = choice;
+//     });
+
+//     return formattedQuestion;
+//   });
+//   startGame();
+// })
+// .catch((err) => {
+//   console.log(err);
+// });
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
@@ -51,7 +142,7 @@ const MAX_QUESTIONS = 10;
 function startGame() {
   questionCounter = 0;
   score = 0;
-  availableQuestions = [...questions];
+  availableQuestions = [...availableQuestions];
   localStorage.setItem("mostRecentScore", score);
   focus();
   getNewQuestion();
@@ -93,6 +184,7 @@ function getNewQuestion() {
   // Selects Random Question
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
+
   question.innerText = currentQuestion.question;
 
   //Displays it's Respective Choices
