@@ -13,6 +13,9 @@
   },
   "author": "Surya",
   "license": "ISC",
+  "engines":{
+    "node": "16.16.0"
+  },
   "bugs": {
     "url": "https://github.com/Surya-Kumar-03/Quick-Quizizz/issues"
   },
