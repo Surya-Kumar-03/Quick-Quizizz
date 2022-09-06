@@ -16,20 +16,20 @@
 
 ## Tech
 
-# Front-End
+### Front-End
 - HTML
 - CSS
 - Bootstrap
 - Vanilla JS
 
-# Back-End
+### Back-End
 - Node JS
 - Express JS
 - API
 - MongoDB
 - Mongoose
 
-#Deployment
+### Deployment
 - Heroku
 
 # Snapshots of the App
