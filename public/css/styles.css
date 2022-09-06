@@ -382,8 +382,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: left;
-  width: 100vw;
-  height: 89vh;
+  background-color: #84c5fe;
   flex-flow: column;
   padding-left: 1rem;
 }
@@ -428,9 +427,11 @@ body {
 .btn-pad {
   margin-left: 1rem;
   margin-top: 1rem;
+  margin-bottom:2rem;
 }
 
 .qno {
   padding: 0.25rem;
   margin-left: 4.5rem;
 }
+
