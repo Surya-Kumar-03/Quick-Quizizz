@@ -11,18 +11,26 @@
 - Displays the Correct Answer if User selects the Wrong Answer.
 - Responsive.
 - User cannot Copy-Paste Questions (Prevents against Malpractice).
+- Stores Questions in Cloud-Database (MongoDB)
+
 
 ## Tech
 
+# Front-End
 - HTML
 - CSS
-- Vanilla JS
 - Bootstrap
+- Vanilla JS
+
+# Back-End
 - Node JS
 - Express JS
 - API
 - MongoDB
+- Mongoose
+
+#Deployment
+- Heroku
 
 # Snapshots of the App
 
-## Will be Updated Soon
