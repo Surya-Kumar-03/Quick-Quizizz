@@ -12,6 +12,7 @@
 - Responsive.
 - User cannot Copy-Paste Questions (Prevents against Malpractice).
 - Stores Questions in Cloud-Database (MongoDB)
+- Fetches Questions in Random Order
 
 
 ## Tech
