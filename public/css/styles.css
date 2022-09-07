@@ -391,40 +391,50 @@ body {
   padding-top: 1rem;
   padding-left: 1rem;
   margin-bottom: 0;
-  padding-bottom: 0.3rem;
+  padding-bottom: 1rem;
   font-size: x-large;
+  color: white;
 }
 
 #usr {
   margin-left: 1rem;
+  font-family: "Montserrat", sans-serif;
   width: 90vw;
 }
 
 #usr::placeholder {
+  font-family: "Montserrat", sans-serif;
   text-align: left;
 }
 
 #option-add2 {
+  font-family: "Montserrat", sans-serif;
   margin-top: 1rem;
   width: 30vw;
   margin-left: 1rem;
 }
 
 #option-add2::placeholder {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
+  color: #28a745;
 }
 
 #option-add {
+  font-family: "Montserrat", sans-serif;
   margin-top: 1rem;
   width: 60vw;
   margin-left: 1rem;
 }
 
 #option-add::placeholder {
+  color: coral;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 .btn-pad {
+  font-family: "Montserrat", sans-serif;
   margin-left: 1rem;
   margin-top: 1rem;
   margin-bottom:2rem;

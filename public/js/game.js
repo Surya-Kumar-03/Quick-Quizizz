@@ -149,21 +149,21 @@ function startGame() {
 }
 
 //Tab-Switch Preventer
-// function focus() {
-//   var count = 3;
-//   window.addEventListener("blur", function () {
-//     count--;
-//     if (count === 0) {
-//       localStorage.setItem("mostRecentScore", score);
-//       return window.location.replace("end.html");
-//     }
-//     alert(
-//       "Tab Switch is Prohibited!, You have " +
-//         (count - 1) +
-//         " accidental-switch(es) left!"
-//     );
-//   });
-// }
+function focus() {
+  var count = 3;
+  window.addEventListener("blur", function () {
+    count--;
+    if (count === 0) {
+      localStorage.setItem("mostRecentScore", score);
+      return window.location.replace("end.html");
+    }
+    alert(
+      "Tab Switch is Prohibited!, You have " +
+        (count - 1) +
+        " accidental-switch(es) left!"
+    );
+  });
+}
 
 //endQuiz
 function endQuiz() {
