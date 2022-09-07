@@ -2,6 +2,8 @@
 
 ## _An Online Web-Based Quiz App with Timer_
 
+### [Click Here to Test Application](https://stark-woodland-05603.herokuapp.com/index.html)
+
 ## Features
 
 - Countdown Timer is implemented for every question.
@@ -12,6 +14,7 @@
 - Responsive.
 - User cannot Copy-Paste Questions (Prevents against Malpractice).
 - Stores Questions in Cloud-Database (MongoDB)
+- Fetches Questions in Random Order
 
 
 ## Tech
