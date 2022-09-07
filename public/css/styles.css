@@ -445,3 +445,9 @@ body {
   margin-left: 4.5rem;
 }
 
+#home-btn{
+  font-family: "Montserrat", sans-serif;
+  font-size: xx-large;
+  color: white;
+  margin-bottom: 5rem;
+}

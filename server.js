@@ -291,19 +291,23 @@ app.post("/addquestions", function (req, res) {
     }
   });
 
-  res.send("<h1>New Questions Updated Successfully in Database</h1>");
+  res.sendFile(__dirname + "/questionsAdded.html");
 });
 
-var questionsr=[];
+var questionsr = [];
 app.get("/api/questions", async function (req, res) {
   let response = await Quiz.findOne({ quizId: 0 }, "questions").exec(); //Future Feature
   res.setHeader("Content-Type", "application/json");
-  questionsr=response.questions;
+  questionsr = response.questions;
   res.end(JSON.stringify(questionsr));
 });
 
 app.get("/end.html", function (req, res) {
   res.sendFile(__dirname + "/end.html");
+});
+
+app.get("/questionsAdded.html", function (req, res) {
+  res.sendFile(__dirname + "/questionsAdded.html");
 });
 
 app.get("/index.html", function (req, res) {
