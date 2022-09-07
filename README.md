@@ -27,6 +27,7 @@
 - Express JS
 - API
 - MongoDB
+- MongoDB Atlas (Cloud Database)
 - Mongoose
 
 ### Deployment
