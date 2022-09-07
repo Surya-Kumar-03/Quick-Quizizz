@@ -2,7 +2,7 @@
 
 ## _An Online Web-Based Quiz App with Timer_
 
-### [Click Here to Test Application](https://stark-woodland-05603.herokuapp.com/index.html)
+### [Click Here to Test Application](https://quick-quizizz.herokuapp.com/)
 
 ## Features
 
