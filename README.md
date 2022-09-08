@@ -6,15 +6,15 @@
 
 ## Features
 
-- Countdown Timer is implemented for every question.
-- Score is calculated for every correct answer.
-- Disables Quiz if Tab-Switches exceed count of 2.
-- Checks whether the Answer is Correct or Wrong in Real-Time.
+- Countdown Timer for every question.
+- Score Calculator.
+- Disables quiz if Tab-Switches exceed count of 2.
+- Evaluates whether the Answer is correct or wrong in Real-Time.
 - Displays the Correct Answer if User selects the Wrong Answer.
 - Responsive.
 - User cannot Copy-Paste Questions (Prevents against Malpractice).
-- Stores Questions in Cloud-Database (MongoDB)
-- Fetches Questions in Random Order
+- Stores Questions in Cloud-Database (MongoDB).
+- Fetches Questions in Random Order.
 
 
 ## Tech
