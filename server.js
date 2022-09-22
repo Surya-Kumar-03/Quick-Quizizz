@@ -306,6 +306,10 @@ app.get("/end.html", function (req, res) {
   res.sendFile(__dirname + "/end.html");
 });
 
+app.get("/examinerLogin.html", function (req, res) {
+  res.sendFile(__dirname + "/examinerLogin.html");
+});
+
 app.get("/questionsAdded.html", function (req, res) {
   res.sendFile(__dirname + "/questionsAdded.html");
 });
