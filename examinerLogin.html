@@ -63,9 +63,9 @@
 
     <!-- Login -->
     <div class="d-flex justify-content-center align-items-center mt-5">
-      <div class="card">
+      <div class="card nav-shadow">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-          <li class="nav-item text-center">
+          <li class="nav-item text-center" >
             <a
               class="nav-link active btl"
               id="pills-home-tab"
@@ -100,16 +100,19 @@
             <div class="form px-4 pt-5 bgcolor">
               <input
                 type="text"
-                name=""
+                name="username"
                 class="form-control"
                 placeholder="Username"
+                autocomplete="off"
+                autofocus
               />
 
               <input
                 type="text"
-                name=""
+                name="password"
                 class="form-control"
                 placeholder="Password"
+                autocomplete="off"
               />
               <button class="btn btn-dark btn-block font">Click to Login</button>
             </div>
