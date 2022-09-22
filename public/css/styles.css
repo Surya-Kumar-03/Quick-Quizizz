@@ -525,3 +525,7 @@ body {
 .form-control::placeholder{
   font-family: "Montserrat", sans-serif;
 }
+
+.form-control{
+  font-family: "Montserrat", sans-serif;
+}
