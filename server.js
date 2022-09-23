@@ -38,6 +38,15 @@ const questionsSchema = {
   ],
 };
 
+//Schema for Users
+const userSchema = {
+  username: String,
+  password: String,
+};
+
+//Model for User
+const User = mongoose.model("User", userSchema);
+
 // Model  quizDataBase -> Quiz -> Question
 const Quiz = mongoose.model("Quiz", questionsSchema);
 
@@ -319,9 +328,29 @@ app.get("/index.html", function (req, res) {
 });
 
 app.get("/examiner.html", function (req, res) {
-  res.sendFile(__dirname + "/examiner.html");
+  var authorised = false;
+  if (authorised === true) {
+    res.sendFile(__dirname + "/examiner.html");
+  }
+  else{
+    res.sendFile(__dirname + "/examinerLogin.html");
+  }
 });
 
 app.listen(process.env.PORT || 4000, function () {
   console.log("Server started on port 4000.");
+});
+
+app.post("/logindetails", function (req, res) {
+  var usernameG = req.body.username;
+  var passwordG = req.body.password;
+  if (usernameG == "User" && passwordG == "User@123") {
+    authorised = true;
+  }
+
+  if (authorised === true) {
+    res.sendFile(__dirname + "/examiner.html");
+  } else {
+    res.sendFile(__dirname + "/examinerLogin.html");
+  }
 });
