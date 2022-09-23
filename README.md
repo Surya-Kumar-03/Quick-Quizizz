@@ -11,6 +11,7 @@
 - Disables quiz if Tab-Switches exceed count of 2.
 - Evaluates whether the Answer is correct or wrong in Real-Time.
 - Displays the Correct Answer if User selects the Wrong Answer.
+- Login Page for Examiner[Teacher] (Prevents unauthorised change of questions).
 - Responsive.
 - User cannot Copy-Paste Questions (Prevents against Malpractice).
 - Stores Questions in Cloud-Database (MongoDB).
