@@ -327,8 +327,9 @@ app.get("/index.html", function (req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+var authorised = false;
 app.get("/examiner.html", function (req, res) {
-  var authorised = false;
+  authorised = false;
   if (authorised === true) {
     res.sendFile(__dirname + "/examiner.html");
   } else {
