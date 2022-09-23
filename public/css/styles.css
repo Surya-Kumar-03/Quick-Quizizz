@@ -513,19 +513,19 @@ body {
   margin-top: 20px;
 }
 
-.font{
-  font-family: "Montserrat", sans-serif;  
+.font {
+  font-family: "Montserrat", sans-serif;
   font-size: x-large;
 }
 
-.bgcolor{
-  background-color:#84c5fe;
+.bgcolor {
+  background-color: #84c5fe;
 }
 
-.form-control::placeholder{
+.form-control::placeholder {
   font-family: "Montserrat", sans-serif;
 }
 
-.form-control{
+.form-control {
   font-family: "Montserrat", sans-serif;
 }

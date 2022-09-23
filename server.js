@@ -331,8 +331,7 @@ app.get("/examiner.html", function (req, res) {
   var authorised = false;
   if (authorised === true) {
     res.sendFile(__dirname + "/examiner.html");
-  }
-  else{
+  } else {
     res.sendFile(__dirname + "/examinerLogin.html");
   }
 });
