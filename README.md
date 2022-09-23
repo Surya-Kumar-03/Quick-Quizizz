@@ -48,13 +48,17 @@
 ![image](https://user-images.githubusercontent.com/89148170/188833903-4819b52f-5bb1-4a85-96ed-090b2ea40163.png)
 ![image](https://user-images.githubusercontent.com/89148170/188828015-c4d1d7e6-cdb9-46c4-bb3a-617060110ce4.png)
 
-## Quiz Page:
-![image](https://user-images.githubusercontent.com/89148170/188828683-3020120d-0fe9-4677-b5e4-98a7fce4c058.png)
-
-## Tab-Switch Alert:
-![image](https://user-images.githubusercontent.com/89148170/188829296-fef5aee8-133a-43df-bab5-77109c2cf690.png)
-
 ## Questions Updation Acknowledgement
 ![image](https://user-images.githubusercontent.com/89148170/188828510-319629fd-c790-4c68-acdf-377bc059b81f.png)
+
+## Examinee(Student) Quiz Page:
+![image](https://user-images.githubusercontent.com/89148170/191923444-5fb2b313-f1c6-4b62-9b21-e1da9d942cc4.png)
+
+## Tab-Switch Alert:
+![image](https://user-images.githubusercontent.com/89148170/191923599-2bba5d4e-8ff3-4515-a1a4-c0accd0ba950.png)
+
+## Score Display(End Page)
+![image](https://user-images.githubusercontent.com/89148170/191923787-1d3f6244-fe27-4c99-8d55-c0cb99d10849.png)
+
 
 
