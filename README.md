@@ -2,36 +2,37 @@
 
 ## _An Online Web-Based Quiz App with Timer_
 
-### [Click Here to Test Application](https://quick-quizizz.herokuapp.com/)
+### [Click here to Try it out!](https://quick-quizizz.herokuapp.com/)
 
 ## Features
 
-- Countdown Timer for every question.
-- Score Calculator.
-- Disables quiz if Tab-Switches exceed count of 2.
-- Evaluates whether the Answer is correct or wrong in Real-Time.
-- Displays the Correct Answer if User selects the Wrong Answer.
-- Login Page for Examiner[Teacher] (Prevents unauthorised change of questions).
+- Countdown timer for every question.
+- Score calculator.
+- Exits quiz if tab-switch exceeds count of 2.
+- Evaluation of answer in real-time.
+- Displays the correct answer if user selects the wrong choice.
+- Login page for Examiner[Teacher] (Prevents against unauthorised change of questions).
 - Responsive.
-- User cannot Copy-Paste Questions (Prevents against Malpractice).
-- Stores Questions in Cloud-Database (MongoDB).
-- Fetches Questions in Random Order.
+- User cannot select questions(Prevents against Malpractice).
+- Storage of questions in Cloud-Database(MongoDB Atlas).
+- Fetches questions in random order from database.
 
 
 ## Tech
 
-### Front-End
+### Front-End (Client-Side)
 - HTML
 - CSS
 - Bootstrap
 - Vanilla JS
 
-### Back-End
+### Back-End (Server-Side)
 - Node JS
+- NPM
 - Express JS
 - API
 - MongoDB
-- MongoDB Atlas (Cloud Database)
+- MongoDB Atlas(Cloud Database)
 - Mongoose
 
 ### Deployment
