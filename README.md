@@ -39,9 +39,12 @@
 
 # Snapshots of the App
 ## Examinee(Student) Home Page:
-![image](https://user-images.githubusercontent.com/89148170/188827579-204cd1bc-8001-41bc-97b9-4a101e9b1045.png)
+![image](https://user-images.githubusercontent.com/89148170/191922600-f44c6527-6fd6-4251-ae8a-a97182796b4e.png)
 
-## Examiner(Teacher) Home Page:
+## Examiner(Teacher) Login Page:
+![image](https://user-images.githubusercontent.com/89148170/191922931-277acdd3-492e-47f8-9e68-36082b840a12.png)
+
+## Examiner(Teacher) Questions' Adder Page:
 ![image](https://user-images.githubusercontent.com/89148170/188833903-4819b52f-5bb1-4a85-96ed-090b2ea40163.png)
 ![image](https://user-images.githubusercontent.com/89148170/188828015-c4d1d7e6-cdb9-46c4-bb3a-617060110ce4.png)
 
