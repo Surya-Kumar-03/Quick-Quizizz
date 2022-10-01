@@ -43,11 +43,11 @@
 ![image](https://user-images.githubusercontent.com/89148170/191922600-f44c6527-6fd6-4251-ae8a-a97182796b4e.png)
 
 ## Examiner(Teacher) Login Page:
-![image](https://user-images.githubusercontent.com/89148170/191922931-277acdd3-492e-47f8-9e68-36082b840a12.png)
+![image](https://user-images.githubusercontent.com/89148170/193406996-a9100238-8417-4b5c-83a3-99852a329a58.png)
 
 ## Examiner(Teacher) Questions' Adder Page:
-![image](https://user-images.githubusercontent.com/89148170/188833903-4819b52f-5bb1-4a85-96ed-090b2ea40163.png)
-![image](https://user-images.githubusercontent.com/89148170/188828015-c4d1d7e6-cdb9-46c4-bb3a-617060110ce4.png)
+![image](https://user-images.githubusercontent.com/89148170/193407035-fdc34b8c-d4bc-4873-b083-53064b37a51d.png)
+![image](https://user-images.githubusercontent.com/89148170/193407017-09992d75-b588-4b79-9270-4303fb7b003e.png)
 
 ## Questions Updation Acknowledgement
 ![image](https://user-images.githubusercontent.com/89148170/188828510-319629fd-c790-4c68-acdf-377bc059b81f.png)
