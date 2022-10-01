@@ -386,6 +386,7 @@ body {
   background-color: #84c5fe;
   flex-flow: column;
   padding-left: 1rem;
+  width: 103vw;
 }
 
 #left {
@@ -398,7 +399,6 @@ body {
 }
 
 #usr {
-  margin-left: 1rem;
   font-family: "Montserrat", sans-serif;
   width: 90vw;
 }
@@ -483,14 +483,15 @@ body {
 .nav-pills {
   display: table !important;
   width: 100%;
+  
 }
 
 .nav-pills .nav-link {
-  border-radius: 0px;
-  border-bottom: 1px solid #0d6efd40;
+  border-radius: 0rem;
 }
 
 .nav-item {
+  width: 30vw;
   display: table-cell;
   background: #0d6efd2e;
 }
@@ -529,3 +530,4 @@ body {
 .form-control {
   font-family: "Montserrat", sans-serif;
 }
+
