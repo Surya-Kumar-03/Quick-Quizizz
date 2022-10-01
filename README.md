@@ -30,7 +30,7 @@
 - Node JS
 - NPM
 - Express JS
-- API
+- REST API
 - MongoDB
 - MongoDB Atlas(Cloud Database)
 - Mongoose
