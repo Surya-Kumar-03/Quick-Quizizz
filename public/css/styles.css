@@ -368,6 +368,7 @@ body {
   margin-top: 12rem;
   color: white;
   font-size: x-large;
+  margin-right: 1.5rem;
 }
 
 #create:hover {
@@ -463,7 +464,6 @@ body {
 }
 
 .btl {
-  border-top-left-radius: 5px !important;
   font-family: "Montserrat", sans-serif;
   font-size: x-large;
 }
@@ -525,9 +525,14 @@ body {
 
 .form-control::placeholder {
   font-family: "Montserrat", sans-serif;
+  font-size: larger;
 }
 
 .form-control {
   font-family: "Montserrat", sans-serif;
+}
+
+#increase-size{
+  font-size: x-large;
 }
 
