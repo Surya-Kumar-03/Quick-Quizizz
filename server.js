@@ -344,6 +344,7 @@ app.listen(process.env.PORT || 4000, function () {
 app.post("/logindetails", function (req, res) {
   var usernameG = req.body.username;
   var passwordG = req.body.password;
+  authorised = false;
   if (usernameG == "User" && passwordG == "User@123") {
     authorised = true;
   }
