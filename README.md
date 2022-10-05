@@ -40,17 +40,17 @@
 
 # Snapshots of the App
 ## Examinee(Student) Home Page:
-![image](https://user-images.githubusercontent.com/89148170/191922600-f44c6527-6fd6-4251-ae8a-a97182796b4e.png)
+![image](https://user-images.githubusercontent.com/89148170/194041779-acc15aa8-171b-483b-8f69-681d71f4bf7c.png)
 
 ## Examiner(Teacher) Login Page:
-![image](https://user-images.githubusercontent.com/89148170/193406996-a9100238-8417-4b5c-83a3-99852a329a58.png)
+![image](https://user-images.githubusercontent.com/89148170/194041852-7308b4d4-397f-43e1-9f84-846f95ca49c6.png)
 
 ## Examiner(Teacher) Questions' Adder Page:
-![image](https://user-images.githubusercontent.com/89148170/193407035-fdc34b8c-d4bc-4873-b083-53064b37a51d.png)
-![image](https://user-images.githubusercontent.com/89148170/193407017-09992d75-b588-4b79-9270-4303fb7b003e.png)
+![image](https://user-images.githubusercontent.com/89148170/194041956-2c1aae45-a4ac-4e78-96de-fe3e4633bf21.png)
+![image](https://user-images.githubusercontent.com/89148170/194042019-662125f0-fa23-4caf-9736-da724804cd89.png)
 
 ## Questions Updation Acknowledgement
-![image](https://user-images.githubusercontent.com/89148170/188828510-319629fd-c790-4c68-acdf-377bc059b81f.png)
+![image](https://user-images.githubusercontent.com/89148170/194042124-a499cabc-1534-42ed-8877-f4c9bb86047b.png)
 
 ## Examinee(Student) Quiz Page:
 ![image](https://user-images.githubusercontent.com/89148170/191923444-5fb2b313-f1c6-4b62-9b21-e1da9d942cc4.png)
@@ -59,7 +59,7 @@
 ![image](https://user-images.githubusercontent.com/89148170/191923599-2bba5d4e-8ff3-4515-a1a4-c0accd0ba950.png)
 
 ## Score Display(End Page)
-![image](https://user-images.githubusercontent.com/89148170/191923787-1d3f6244-fe27-4c99-8d55-c0cb99d10849.png)
+![image](https://user-images.githubusercontent.com/89148170/194042254-ada32fb9-1b68-43b7-a5c5-10539001cd0d.png)
 
 
 
