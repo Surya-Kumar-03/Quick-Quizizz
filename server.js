@@ -345,7 +345,7 @@ app.post("/logindetails", function (req, res) {
   var usernameG = req.body.username;
   var passwordG = req.body.password;
   authorised = false;
-  if (usernameG == "User" && passwordG == "User@123") {
+  if (usernameG == "Test" && passwordG == "Test@123") {
     authorised = true;
   }
 
