@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>End Page | Quck Quizizz</title>
+    <title>Scores Page | Quck Quizizz</title>
     <!-- Our Coded CSS File -->
     <link rel="stylesheet" href="css/styles.css" />
 
@@ -46,23 +46,73 @@
         </span>
       </a>
     </nav>
-    <div class="wrapper2">
-      <div class="quiz nav-shadow">
-        <p class="name" id="name">Surya</p>
-        <p class="compliment">Your Score for this Quiz is</p>
-        <h1 id="finalScore"></h1>
-        <a class="end-btn" href="index.html">Home🏡</a>
-        <a class="end-btn" href="quiz.html">Take Quiz Again🔁</a>
-      </div>
-    </div>
+
+    <!-- hide -->
+    <h1 class="caption">
+      Nobody has <em style="color: red">attempted✘</em> the quiz yet!
+    </h1>
+
+    <!-- Table -->
+    <table class="table table-primary">
+      <tr class="bg-success">
+        <th class="font-change">#</th>
+        <th class="font-change">Examinee Name</th>
+        <th class="font-change">Score</th>
+      </tr>
+
+      <tbody class="font-change" id="myTable"></tbody>
+      <caption class="font-change">
+        End of Scores Table.
+      </caption>
+    </table>
+
+    <!-- <table class="table table-hover">
+      <caption>
+        Scores by Examinees who have taken the Quiz.
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">User Name</th>
+          <th scope="col">High Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-primary">
+          <th scope="row">1</th>
+          <td>Hari</td>
+          <td>90</td>
+        </tr>
+        <tr class="table-warning">
+          <th scope="row">2</th>
+          <td>Kiran</td>
+          <td>70</td>
+        </tr>
+        <tr class="table-success">
+          <th scope="row">3</th>
+          <td>Bhaskar</td>
+          <td>60</td>
+        </tr>
+      </tbody>
+    </table> -->
 
     <!-- Footer -->
-    <footer class="page-footer bg-dark footer footer2" style="width: 102.9%">
+    <footer
+      class="page-footer bg-dark footer footer2 fixed-bottom"
+      style="width: 102.9%"
+    >
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">
         <a href="https://www.linkedin.com/in/bandepalli-surya"> &copy; Surya</a>
       </div>
     </footer>
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap Javascript -->
     <script
@@ -81,8 +131,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="server.js"></script>
-    <script src="js/end.js"></script>
-    <script src="js/userInfo.js"></script>
+    <script src="js/table.js"></script>
   </body>
 </html>

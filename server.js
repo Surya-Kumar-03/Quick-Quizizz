@@ -6,6 +6,7 @@ var favicon = require("serve-favicon");
 var path = require("path");
 const mongoose = require("mongoose");
 
+
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
@@ -15,6 +16,7 @@ app.use(favicon(path.join(__dirname, "public", "images", "Favicon.png")));
 // mongoose.connect("mongodb://localhost:27017/quizDataBase", {
 //   useNewUrlParser: true,
 // });
+
 mongoose.connect(
   "mongodb+srv://admin-surya:venkateshwara@cluster0.gwsxlxc.mongodb.net/?retryWrites=true&w=majority/quizDataBase",
   {
@@ -40,8 +42,8 @@ const questionsSchema = {
 
 //Schema for Users
 const userSchema = {
-  username: String,
-  password: String,
+  name: String,
+  score: Number,
 };
 
 //Model for User
@@ -313,6 +315,14 @@ app.get("/api/questions", async function (req, res) {
 
 app.get("/end.html", function (req, res) {
   res.sendFile(__dirname + "/end.html");
+  // const scoreReq = localStorage.mostRecentScore;
+  // const nameReq = localStorage.getItem("name");
+  // console.log(scoreReq);
+  // console.log(nameReq);
+});
+
+app.post("/userDetails", function (req, res) {
+  console.log(localStorage.getItem("name"));
 });
 
 app.get("/examinerLogin.html", function (req, res) {
@@ -345,7 +355,7 @@ app.post("/logindetails", function (req, res) {
   var usernameG = req.body.username;
   var passwordG = req.body.password;
   authorised = false;
-  if (usernameG == "User" && passwordG == "User@123") {
+  if (usernameG == "Test" && passwordG == "Test@123") {
     authorised = true;
   }
 
@@ -354,4 +364,8 @@ app.post("/logindetails", function (req, res) {
   } else {
     res.sendFile(__dirname + "/examinerLogin.html");
   }
+});
+
+app.get("/scoresViewer.html", function (req, res) {
+  res.sendFile(__dirname + "/scoresViewer.html");
 });

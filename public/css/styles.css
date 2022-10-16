@@ -371,6 +371,13 @@ body {
   margin-right: 1.5rem;
 }
 
+#create2 {
+  color: white;
+  font-size: x-large;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+
 #create:hover {
   background-color: #2668e0;
   text-decoration: none;
@@ -536,3 +543,14 @@ body {
   font-size: x-large;
 }
 
+.button-cover{
+  text-align: center;
+}
+
+.hide{
+  display: none;
+}
+
+.font-change{
+  font-family: "Montserrat", sans-serif;
+}
