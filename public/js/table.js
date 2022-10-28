@@ -11,7 +11,6 @@ if (Uscore == null) {
 }
 
 var myArray = [
-  { name: "Surya K", score: 70 },
   { name: Uname, score: Uscore },
 ];
 
