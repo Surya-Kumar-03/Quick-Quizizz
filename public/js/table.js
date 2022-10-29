@@ -1,18 +1,16 @@
 var Uname = localStorage.getItem("name");
 var Uscore = localStorage.getItem("mostRecentScore");
 $("h1").addClass("hide");
-if (Uname === null) {
-  $("h1").removeClass("hide");
-  $("table").addClass("hide");
-}
+$("table").removeClass("hide");
+
+
+var myArray = [{ name: Uname, score: Uscore }];
 
 if (Uscore == null) {
-  Uscore = 0;
+  $("h1").removeClass("hide");
+  $("table").addClass("hide");
+  myArray = [];
 }
-
-var myArray = [
-  { name: Uname, score: Uscore },
-];
 
 buildTable(myArray);
 
