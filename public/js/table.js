@@ -1,6 +1,7 @@
 var Uname = localStorage.getItem("name");
 var Uscore = localStorage.getItem("mostRecentScore");
 $("h1").addClass("hide");
+$("h1").addClass("hidden");
 $("table").removeClass("hide");
 
 
@@ -26,3 +27,10 @@ function buildTable(data) {
     table.innerHTML += row;
   }
 }
+
+setTimeout(() => {
+  $(".spinner").addClass("hidden");
+  $("table").removeClass("hidden");
+  $(".col").removeClass("hidden");
+  $("h1").removeClass("hidden");
+}, 500);
