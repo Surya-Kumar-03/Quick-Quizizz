@@ -196,11 +196,11 @@ Quiz.find({ quizId: 0 }, function (err, docs) {
 // });
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/public/html/index.html");
 });
 
 app.get("/quiz.html", function (req, res) {
-  res.sendFile(__dirname + "/quiz.html");
+  res.sendFile(__dirname + "/public/html/quiz.html");
 });
 
 app.post("/addquestions", function (req, res) {
@@ -302,7 +302,7 @@ app.post("/addquestions", function (req, res) {
     }
   });
 
-  res.sendFile(__dirname + "/questionsAdded.html");
+  res.sendFile(__dirname + "/public/html/questionsAdded.html");
 });
 
 var questionsr = [];
@@ -314,7 +314,7 @@ app.get("/api/questions", async function (req, res) {
 });
 
 app.get("/end.html", function (req, res) {
-  res.sendFile(__dirname + "/end.html");
+  res.sendFile(__dirname + "/public/html/end.html");
   // const scoreReq = localStorage.mostRecentScore;
   // const nameReq = localStorage.getItem("name");
   // console.log(scoreReq);
@@ -326,24 +326,24 @@ app.post("/userDetails", function (req, res) {
 });
 
 app.get("/examinerLogin.html", function (req, res) {
-  res.sendFile(__dirname + "/examinerLogin.html");
+  res.sendFile(__dirname + "/public/html/examinerLogin.html");
 });
 
 app.get("/questionsAdded.html", function (req, res) {
-  res.sendFile(__dirname + "/questionsAdded.html");
+  res.sendFile(__dirname + "/public/html/questionsAdded.html");
 });
 
 app.get("/index.html", function (req, res) {
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/public/html/index.html");
 });
 
 var authorised = false;
 app.get("/examiner.html", function (req, res) {
   authorised = false;
   if (authorised === true) {
-    res.sendFile(__dirname + "/examiner.html");
+    res.sendFile(__dirname + "/public/html/examiner.html");
   } else {
-    res.sendFile(__dirname + "/examinerLogin.html");
+    res.sendFile(__dirname + "/public/html/examinerLogin.html");
   }
 });
 
@@ -360,12 +360,12 @@ app.post("/logindetails", function (req, res) {
   }
 
   if (authorised === true) {
-    res.sendFile(__dirname + "/examiner.html");
+    res.sendFile(__dirname + "/public/html/examiner.html");
   } else {
-    res.sendFile(__dirname + "/examinerLogin.html");
+    res.sendFile(__dirname + "/public/html/examinerLogin.html");
   }
 });
 
 app.get("/scoresViewer.html", function (req, res) {
-  res.sendFile(__dirname + "/scoresViewer.html");
+  res.sendFile(__dirname + "/public/html/scoresViewer.html");
 });
