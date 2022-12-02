@@ -37,7 +37,7 @@
 - Mongoose
 
 ### Deployment
-- Heroku
+- Cyclic
 
 # Snapshots of the App
 ## Home Page:
