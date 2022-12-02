@@ -2,7 +2,7 @@
 
 ## _An Online Web-Based Quiz App with Timer_
 
-### [Click here to try it out!](https://quick-quizizz.herokuapp.com/)
+### [Click here to try it out!](https://lazy-erin-seahorse-tux.cyclic.app/)
 
 ## Features
 
