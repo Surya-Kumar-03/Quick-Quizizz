@@ -8,6 +8,9 @@ body {
   margin: 0;
   overflow-x: hidden;
   width: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 /* Font-size of Navbar */
@@ -55,18 +58,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 100vh;
+  flex: 1 1 auto;
   width: 100vw;
   flex-flow: column;
-  overflow: auto;
 }
 
 .wrapper2 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 80vh;
-  width: 100vw;
   flex-flow: column;
 }
 
@@ -88,7 +88,7 @@ body {
   background: lightskyblue;
   background: linear-gradient(
     0deg,
-    rgba(255, 248, 242, 1) 0%,
+    white 0%,
     lightskyblue 100%
   );
 }
@@ -374,7 +374,7 @@ body {
 }
 
 ::placeholder {
-  font-size: medium;
+  font-size: small;
   color: white;
   text-align: right;
 }
@@ -397,7 +397,7 @@ body {
 }
 
 #create {
-  margin-top: 8rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   color: white;
   font-size: x-large;
@@ -418,7 +418,10 @@ body {
 }
 
 .pad {
-  margin-right: 0.75rem;
+  align-items: center;
+  margin: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 11vh;
 }
 
 .examiner-container {
@@ -433,6 +436,15 @@ body {
   flex-flow: column;
   padding-left: 1rem;
   width: 103vw;
+}
+.footer{
+  height: 8vh;
+  /* margin-top: auto; */
+}
+
+.footer-home{
+  height: 8vh;
+  margin-top: auto;
 }
 
 #left {
