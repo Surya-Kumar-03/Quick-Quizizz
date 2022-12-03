@@ -41,7 +41,7 @@
 
 # Snapshots of the App
 ## Home Page:
-![image](https://user-images.githubusercontent.com/89148170/200059001-1836b577-6cdc-434a-b8ea-c5119f88c32d.png)
+![image](https://user-images.githubusercontent.com/89148170/205428912-d343c9a0-fde3-4307-afcd-cdcc22ee33c7.png)
 
 ## Examiner Login:
 ![image](https://user-images.githubusercontent.com/89148170/200059314-9e73b7d3-e467-476a-b0d4-f90c21092adc.png)
