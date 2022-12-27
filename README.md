@@ -2,9 +2,9 @@
 
 ## A Quiz Web-App with Timer
 
-### [You can give it a try!](https://lazy-erin-seahorse-tux.cyclic.app/)
+## [You can give it a try!](https://lazy-erin-seahorse-tux.cyclic.app/)
 
-## Few Features of the Web-App:
+### Few Features of the Web-App:
 
 - Countdown Timer for each Question.
 - Score Calculator.
@@ -14,7 +14,7 @@
 - Examiner Login.
 - Responsive.
 
-## Tech-Used:
+### Tech-Used:
 
 - HTML
 - CSS (Bootstrap)
