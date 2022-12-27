@@ -145,6 +145,7 @@ body {
 
 .footer {
   text-align: center;
+  color: white;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -428,11 +429,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: left;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 248, 242, 1) 0%,
-    lightskyblue 10%
-  );
+  background:lightskyblue 10%;
   flex-flow: column;
   padding-left: 1rem;
   width: 103vw;
