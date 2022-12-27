@@ -1,46 +1,29 @@
 # Quick-Quizizz
 
-## _An Online Web-Based Quiz App with Timer_
+## A Quiz Web-App with Timer
 
-### [Click here to try it out!](https://lazy-erin-seahorse-tux.cyclic.app/)
+### [You can give it a try!](https://lazy-erin-seahorse-tux.cyclic.app/)
 
-## Features
+## Few Features of the Web-App:
 
-- Countdown timer for every question.
-- Score calculator.
-- Exits quiz if tab-switch exceeds count of 2.
-- Evaluation of answer in real-time.
-- Displays the correct answer if user selects the wrong choice.
-- Login page for Examiner[Teacher] (Prevents against unauthorised change of questions).
+- Countdown Timer for each Question.
+- Score Calculator.
+- Tab-Switch Prevention.
+- Question-Order Randomizer.
+- Evaluates Answers in Real-Time.
+- Examiner Login.
 - Responsive.
-- User cannot select questions(Prevents against Malpractice).
-- Storage of questions in Cloud-Database(MongoDB Atlas).
-- Fetches questions in random order from database.
-- Shows scores of examinees.
 
+## Tech-Used:
 
-## Tech
-
-### Front-End (Client-Side)
 - HTML
-- CSS
-- Bootstrap
+- CSS (Bootstrap)
 - Vanilla JS
-
-### Back-End (Server-Side)
-- Node JS
-- NPM
-- Express JS
-- REST API
-- MongoDB
-- MongoDB Atlas(Cloud Database)
-- Mongoose
-
-### Deployment
-- Cyclic
+- NodeJS (ExpressJS)
+- MongoDB (Mongoose)
 
 # Snapshots of the App
-## Home Page:
+## Home:
 ![image](https://user-images.githubusercontent.com/89148170/205428912-d343c9a0-fde3-4307-afcd-cdcc22ee33c7.png)
 
 ## Examiner Login:
