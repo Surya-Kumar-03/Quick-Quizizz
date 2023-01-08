@@ -18,7 +18,7 @@ app.use(favicon(path.join(__dirname, "public", "images", "Favicon.png")));
 // });
 
 mongoose.connect(
-  process.env.MONGO_URI,
+  "mongodb+srv://admin-surya:venkateshwara@cluster0.gwsxlxc.mongodb.net/?retryWrites=true&w=majority/quizDataBase",
   {
     useNewUrlParser: true,
   }
