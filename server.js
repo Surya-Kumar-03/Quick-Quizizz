@@ -1,5 +1,6 @@
 //jshint esversion:6
 
+require('dotenv').config()
 const express = require("express");
 const bodyParser = require("body-parser");
 var favicon = require("serve-favicon");
@@ -18,7 +19,7 @@ app.use(favicon(path.join(__dirname, "public", "images", "Favicon.png")));
 // });
 
 mongoose.connect(
-  "mongodb+srv://admin-surya:venkateshwara@cluster0.gwsxlxc.mongodb.net/?retryWrites=true&w=majority/quizDataBase",
+  process.env.DB_CONNECT,
   {
     useNewUrlParser: true,
   }
