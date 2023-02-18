@@ -1,6 +1,6 @@
 # Quick-Quizizz
 
-# [Try it by clicking here!](https://lazy-erin-seahorse-tux.cyclic.app/)
+## [Try it by clicking here!](https://lazy-erin-seahorse-tux.cyclic.app/)
 
 ## Few Features of the Web-App:
 
