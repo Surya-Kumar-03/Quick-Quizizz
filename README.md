@@ -2,7 +2,7 @@
 
 ## [Try it by clicking here!](https://lazy-erin-seahorse-tux.cyclic.app/)
 
-## Few Features of the Web-App:
+## Features:
 
 - Countdown Timer: Each question comes with a built-in countdown timer, ensuring that quiz-takers have a limited amount of time to answer each question.
 - Score Calculator: The score calculator keeps track of how many questions were answered correctly, so you can quickly calculate and display your score.
