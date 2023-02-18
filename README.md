@@ -19,7 +19,7 @@
 - NodeJS (ExpressJS)
 - MongoDB (Mongoose)
 
-## Installation
+## Installation:
 
 The Project requires [Node.js](https://nodejs.org/) v10+ to run.
 
@@ -35,12 +35,12 @@ node server.js
 ```
 The server will start on port 4000 by default.
 
-## Development
+## Development:
 
 Want to contribute? Great!
 You can follow the setup and contribute to the project. Connect with me if you are stuck!
 
-## Snapshots of the App
+## Snapshots of the App:
 ### Home:
 ![image](https://user-images.githubusercontent.com/89148170/209695120-74138ace-9361-4167-81ca-f3e199828251.png)
 
