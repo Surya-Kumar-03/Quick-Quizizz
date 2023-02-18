@@ -12,7 +12,7 @@
 - Examiner Login: To ensure the security of the quiz, an examiner login is required. This prevents unauthorized access to the quiz and ensures that only authorized individuals can view the results.
 - Responsive Design: Our quiz tool is designed to be responsive and work seamlessly across all devices, whether it's a desktop, laptop, or mobile device.
 
-## Tech-Used:
+## Tech:
 - HTML5
 - CSS3 (Bootstrap)
 - JS ES6 
